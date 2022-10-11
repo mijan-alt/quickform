@@ -1,42 +1,50 @@
 import styled from 'styled-components';
 
 export const MainPage = styled.div`
-
+    display:flex;
     width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    position:relative;
+    height: 900px;
+
  `
 
  export const Image = styled.div`
-      position: absolute;
-      right:0;
-      top:0;
+      position:relative;
       width: 642px;
-      height: 100vh;
+      height: 900px;
 
-      img {
+      
+
+      img:nth-child(1) {
+     
+          position:absolute;
+          top:0;
+          bottom:0;
+          right:0;
           width: 100%;
-          height: 100%;
       }
- `
 
- export const Ellipse = styled.img`
+          
+     img:nth-child(2) {
+     
       position: absolute;
       width: 353px;
       height: 353px;
       bottom: 40px;
-      left: 798px;
+      right: 343px;
      
+ } 
 
- 
+
  `;
+     
+      
+ 
 
  export const StyledBlur= styled.div`
     position: absolute;
     height: 270px;
     width: 547px;
-    left: 59px;
+    right: 59px;
     bottom: 43px;
     border-radius: 10px;
 
@@ -59,20 +67,24 @@ export const MainPage = styled.div`
      margin-left: 37px;
      width: 238px;
 
+
+     
+     span:first-child{
+          
+          
+          .thumbs {
+               position:static;
+               width:22.05px;
+               height:22.05px;
+          }
+     }
+
+
      span:last-child {
           margin-left: 11.95px;
           font-weight: 400;
           font-size: 14px;
 
-     }
-
-     span:first-child{
-          
-          
-          img {
-               width:22.05px;
-               height:22.05px;
-          }
      }
 
 

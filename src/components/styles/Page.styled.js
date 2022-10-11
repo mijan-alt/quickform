@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Page = styled.div`
-width: 50%;
+width: 798px;
+height:900px;
 
 `;

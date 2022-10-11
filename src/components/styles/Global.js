@@ -18,6 +18,11 @@ export const GlobalStyle= createGlobalStyle`
   }
  body {
     font-family:'poppins',sans-serif;
+    height: 100vh;
+ }
+
+ #root{
+   height:100%;
  }
   
 

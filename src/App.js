@@ -7,7 +7,7 @@ import { GlobalStyle } from "./components/styles/Global";
 import { ThemeProvider } from "styled-components";
 import Nav from "./Nav";
 import { MainPage } from "./components/styles/MainPage.styled";
-import { Image, Ellipse } from "./components/styles/MainPage.styled";
+import { Image} from "./components/styles/MainPage.styled";
 import Blur from "./components/styles/Blur";
 
 
@@ -28,23 +28,21 @@ function App() {
     <ThemeProvider theme= {theme}>
       <>
       <GlobalStyle />
-      <MainPage>
+    <MainPage>
       <Page>
-      <Nav/>
-
-      <Form />
-    
-      
+        <Nav/>
+        <Form />
       </Page>
+      
       <Image>
+        
         <img src="./images/splash.png" alt="" />
-        <Ellipse src="./images/Ellipse 7.png" alt="" />
+        <img src="./images/Ellipse 7.png" alt="" />
+
         <Blur />
       </Image>
-      
-
-      
-      </MainPage>
+     
+ </MainPage>
 
 
       
