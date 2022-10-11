@@ -1,5 +1,5 @@
 import { MainContainer } from "./styles/Form.styled";
-import { StyledForm, Remember , Button} from "./styles/Form.styled";
+import { StyledForm, Remember , Button, HorizontalRule} from "./styles/Form.styled";
 import SocialIcons from "./SocialIcons";
 import { Input } from "./styles/Input.styled";
 
@@ -17,7 +17,7 @@ const  Form = () => {
 
                 <SocialIcons/>
                 
-               <hr /> <p>Or continue with</p>
+               <div><HorizontalRule /> <p>Or continue with</p> <HorizontalRule/></div>
 
                 <Input type="email" placeholder="Email"/>
                 <Input type="password" placeholder="Password"/>

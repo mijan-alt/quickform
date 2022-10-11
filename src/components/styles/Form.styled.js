@@ -13,6 +13,26 @@ export const MainContainer = styled.div`
    align-items:center;
    justify-content:center;
 
+   div:nth-child(3){
+      display: flex;
+      align-items:center;
+      justify-content:center;
+      margin-top:2.3125rem;
+      gap: 11px;
+
+      p{
+         margin:0;
+         
+       font-size: 0.8125rem;
+       font-weight: 400;
+       line-height: 0.9375rem;
+   
+
+      }
+   }
+
+
+
   h2, h3 {
    text-align: center;
   } 
@@ -34,17 +54,8 @@ export const MainContainer = styled.div`
 
   }
 
-  p {
 
-   font-size: 0.8125rem;
-   font-weight: 400;
-   line-height: 0.9375rem;
-   margin-top:2.3125rem;
-
-  }
-
-
-`
+`;
 
 export const Remember = styled.div`
    display:flex;
@@ -52,7 +63,7 @@ export const Remember = styled.div`
    justify-content:center;
    gap: 132px;
    margin-left: 60px;
-
+   margin-top:23px;
 
    p:first-child {
       color: #1A1A1A;
@@ -110,4 +121,9 @@ line-height: 15px;
 
 
 `
+
+export const HorizontalRule = styled.hr`
+width: 130px;
+border: 1px solid #f5f5f5;
+`;
 
